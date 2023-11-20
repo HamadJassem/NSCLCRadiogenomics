@@ -18,6 +18,7 @@ Segmenattion model output
 <p align="center">
   <img src="https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/segmentation.png" alt="Segmentation Output"/>
 </p>
+
 ---
 ### Directory Guide:
 - src Notebooks
