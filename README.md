@@ -2,6 +2,9 @@
 
 In this project, we address the challenging problem of early detection and accurate classification of non-small cell lung cancer (NSCLC), a leading cause of cancer-related deaths globally. Our approach integrates multi-modal data, combining  fused medical imaging (CT and PET scans) with clinical health records and genomic data. Utilizing a novel fusion of these diverse data sources, we employ advanced machine learning models, including MedClip and BEiT for image feature extraction, baseline models for comparisons and a UNet model for precise tumor segmentation. Key findings demonstrate a significant improvement in the accuracy and precision of NSCLC detection and classification by using the fused data, as evidenced by enhanced performance metrics such as accuracy, precision, recall, and F1-score. The best multi-modal classifier model achieved an accuracy of 93.9\% and the segmentation model achieved a DSC of 0.76. This project's significance lies in its potential to revolutionize NSCLC diagnostics, offering earlier detection, improved treatment planning, and contributing to better patient outcomes in the realm of lung cancer treatment. 
 
+![alt text](https://github.com/HamadJassem/NSCLCRadiogenomics/main/multi-modal.jpg?raw=true)
+
+
 Directory Guide:
 - src Notebooks
   - 00_Downloading_Data_From_TCIA -> used to get the dataset (CT, PET) from the cancer imaging archive
