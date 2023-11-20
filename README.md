@@ -18,7 +18,7 @@ Segmenattion model output
 <p align="center">
   <img src="https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/segmentation.png" alt="Segmentation Output"/>
 </p>
-
+---
 ### Directory Guide:
 - src Notebooks
   - 00_Downloading_Data_From_TCIA -> used to get the dataset (CT, PET) from the cancer imaging archive
@@ -45,3 +45,4 @@ Segmenattion model output
   - clinical_subset.csv -> raw clinical data of the patient subset
   - train_data_resamples.csv -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
   - test_data_resamples.csv -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
+---
