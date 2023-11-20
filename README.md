@@ -22,7 +22,7 @@ Segmenattion model output
 ---
 ### Directory Guide:
 - src Notebooks
-  - 00_Downloading_Data_From_TCIA -> used to get the dataset (CT, PET) from the cancer imaging archive
+  - '00_Downloading_Data_From_TCIA' -> used to get the dataset (CT, PET) from the cancer imaging archive
   - 01_Deep_CNN_Autoencoder_Denoising_Image -> Deep CNN autoencoder model to denoise and pre-process the PET scans
   - 02_CT_Lung_Mask_Prosessing -> CT scans pre-processing and filtering
   - 03_Transfer_Learning - Fusion -> VGG19 Fusion model to fuse the CT and PET image slices
