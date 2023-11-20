@@ -33,8 +33,9 @@ Directory Guide:
   - 09_SVM_Model -> SVM model for clinical and genetic data only with GridSearch
   - 10_Logistic_Regression_Model -> Logistic Regression model for clinical and genetic data only with GridSearch
   - 11_2D_CNN_Image_Classifier -> 2D CNN model for image classification - change directory to switch between CT and Fused CT/PET images
-  - 12_Transfer_Learning_ResNet_Fused -> ResNet model for image classification on Fused images
-  - 13_Transfer_Learning_ResNet_CT -> ResNet model for image classification on CT images
+  - 12_3D_CNN_With_DenseNet -> 3D CNN DenseNet architecture for nrrd file classification - change directory to switch between CT and Fused CT/PET images
+  - 13_Transfer_Learning_ResNet_Fused -> ResNet model for image classification on Fused images
+  - 14_Transfer_Learning_ResNet_CT -> ResNet model for image classification on CT images
 - Data
   - Fused Lung -> fused CT and PET images save as: PatientID_Slice#_Fused.jpg
   - Dataset Lung img -> contains subfolder for each patient. Each folder will have CT, PET slices as well as the denoised PET scan. CT image saved as: PatientID_Slice#_CT.jpg, PT scan: PatientID_Slice#_PT.jpg, Denoised PET: PatientID_Slice#_PT_denoised.jpg
