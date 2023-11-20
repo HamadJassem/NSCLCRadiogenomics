@@ -18,3 +18,12 @@ Directory Guide:
   - 11_2D_CNN_Image_Classifier -> 2D CNN model for image classification - change directory to switch between CT and Fused CT/PET images
   - 12_Transfer_Learning_ResNet_Fused -> ResNet model for image classification on Fused images
   - 13_Transfer_Learning_ResNet_CT -> ResNet model for image classification on CT images
+- Data
+  - Fused Lung -> fused CT and PET images save as: PatientID_Slice#_Fused.jpg
+  - Dataset Lung img -> contains subfolder for each patient. Each folder will have CT, PET slices as well as the denoised PET scan. CT image saved as: PatientID_Slice#_CT.jpg, PT scan: PatientID_Slice#_PT.jpg, Denoised PET: PatientID_Slice#_PT_denoised.jpg
+  - Lung Mask -> contains train and test subfolders. train and test have 2 subfolders each for class 0 and class 1 each with the CT scans after applying a lung mask. File name: PatientID_CT_Slice#.jpg
+  - Full CT Lung -> contains full CT lung images, File name: PatientID_CT_Slice#.jpg
+  - GSE103584_R01_NSCLC_RNAseq.txt -> raw genomics data of the patient subset
+  - clinical_subset.csv -> raw clinical data of the patient subset
+  - train_data_resamples.csv -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
+  - test_data_resamples.csv -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
