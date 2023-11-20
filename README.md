@@ -19,7 +19,7 @@ Segmenattion model output
   <img src="https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/segmentation.png" alt="Segmentation Output"/>
 </p>
 
-Directory Guide:
+### Directory Guide:
 - src Notebooks
   - 00_Downloading_Data_From_TCIA -> used to get the dataset (CT, PET) from the cancer imaging archive
   - 01_Deep_CNN_Autoencoder_Denoising_Image -> Deep CNN autoencoder model to denoise and pre-process the PET scans
