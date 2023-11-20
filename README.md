@@ -5,11 +5,10 @@ In this project, we address the challenging problem of early detection and accur
 ![Model Architecture Diagram](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/model_arch.png)
 ![Segmenattion Model Architecture Diagram](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/seg.png)
 
-Fusion model output
-![Fusion Model](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/output.png)
+<p align="center">
+  <img src="https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/seg.png" alt="Model Architecture Diagram"/>
+</p>
 
-Segmenattion model output
-![Model Architecture Diagram](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/imgs/segmentation.png)
 
 
 Directory Guide:
