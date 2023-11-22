@@ -21,7 +21,7 @@ In this project, we address the challenging problem of early detection and accur
 
 ---
 ### Directory Guide:
-- src Notebooks
+- #### src Notebooks
   - [00_Downloading_Data_From_TCIA](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/00_Downloading_Data_From_TCIA.ipynb) -> used to get the dataset (CT, PET) from the cancer imaging archive
   - [01_Deep_CNN_Autoencoder_Denoising_Image](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/01_Deep_CNN_%20Autoencoder_Denoising_Image.ipynb) -> Deep CNN autoencoder model to denoise and pre-process the PET scans
   - [02_CT_Lung_Mask_Prosessing](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/02_CT_Lung_Mask_Prosessing.ipynb) -> CT scans pre-processing and filtering
@@ -37,7 +37,19 @@ In this project, we address the challenging problem of early detection and accur
   - [12_3D_CNN_With_DenseNet](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/12_3D_CNN_With_DenseNet.ipynb) -> 3D CNN DenseNet architecture for nrrd file classification - change directory to switch between CT and Fused CT/PET images
   - [13_Transfer_Learning_ResNet_Fused](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/13_Transfer_Learning_ResNet_Fused.ipynb) -> ResNet model for image classification on Fused images
   - [14_Transfer_Learning_ResNet_CT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/14_Transfer_Learning_ResNet_CT.ipynb) -> ResNet model for image classification on CT images
-- Data
+  - 15 VGG16
+  - 16 Inception
+  - 17 Xception
+  - [18_Multimodal_MedCLIP_CT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/18_Multimodal_MedCLIP_CT.ipynb) -> Multi-modal MedClip based model for classification based on CT images, clinical data and genomics data
+  - [19_Multimodal_MedCLIP_CT_PET](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/19_Multimodal_MedCLIP_CT_PET.ipynb) -> Multi-modal MedClip based model for classification based on CT images, PET images, clinical data and genomics data
+  - [20_Multimodal_MedCLIP_Fused](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/20_Multimodal_MedCLIP_Fused.ipynb) -> Multi-modal MedClip based model for classification based on Fused CT/PET images, clinical data and genomics data
+  - [21_Multimodal_BEiT_CT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/21_Multimodal_BEiT_CT.ipynb) -> Multi-modal BEiT based model for classification based on CT images, clinical data and genomics data
+  - [22_Multimodal_BEiT_CT_PT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/22_Multimodal_BEiT_CT_PT.ipynb) -> Multi-modal BEit based model for classification based on CT images, PET images, clinical data and genomics data
+  - [23_Multimodal_BEiT_Fused](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/23_Multimodal_BEiT_Fused.ipynb) -> Multi-modal BEiT based model for classification based on Fused CT/PET images, clinical data and genomics data
+
+---
+
+- #### Data
   - [Fused Lung](https://github.com/HamadJassem/NSCLCRadiogenomics/tree/main/Data/Fused%20Lung%202%20copy) -> fused CT and PET images save as: PatientID_Slice#_Fused.jpg
   - [Dataset Lung img](https://github.com/HamadJassem/NSCLCRadiogenomics/tree/main/Data/Dataset%20Lung%20img) -> contains subfolder for each patient. Each folder will have CT, PET slices as well as the denoised PET scan. CT image saved as: PatientID_Slice#_CT.jpg, PT scan: PatientID_Slice#_PT.jpg, Denoised PET: PatientID_Slice#_PT_denoised.jpg
   - [Lung Mask](https://github.com/HamadJassem/NSCLCRadiogenomics/tree/main/Data/Lung%20Mask%20Train%20Test) -> contains train and test subfolders. train and test have 2 subfolders each for class 0 and class 1 each with the CT scans after applying a lung mask. File name: PatientID_CT_Slice#.jpg
