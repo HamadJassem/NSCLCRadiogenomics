@@ -59,5 +59,12 @@ In this project, we address the challenging problem of early detection and accur
   - [train_data_resamples_ordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/train_data_resamples_ordered.csv) -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
   - [test_data_resamples_ordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/test_data_resamples_ordered.csv) -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
 
-  **Some data files are too big to upload completley, processed images can be found at:
+  **Some data files are too big to upload completley, processed images can be found at: [Link](https://drive.google.com/drive/folders/1AijJOVC5Mj14_BNi26rN_HLp1D9mxWkI?usp=sharing)
+  
 ---
+- #### Trained Model
+  - 2D CNN -> model and weights of CNN Model
+  - Autoencoder De-noising -> model and weights of deep CNN autoencoder
+  - ResNet -> model and weights of deep CNN autoencoder
+  - For multimodal BEiT, MedClip and segmentation UNET, file size is too lareg to upload to GitHub. The models can be found at: [Link](https://drive.google.com/drive/folders/1AijJOVC5Mj14_BNi26rN_HLp1D9mxWkI?usp=sharing)
+
