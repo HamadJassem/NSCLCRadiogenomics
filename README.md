@@ -56,6 +56,6 @@ In this project, we address the challenging problem of early detection and accur
   - [Full CT Lung](https://github.com/HamadJassem/NSCLCRadiogenomics/tree/main/Data/Full%20CT%20Lung) -> contains full CT lung images, File name: PatientID_CT_Slice#.jpg
   - [GSE103584_R01_NSCLC_RNAseq.txt](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/GSE103584_R01_NSCLC_RNAseq.txt) -> raw genomics data of the patient subset
   - [clinical_subset.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/clinical_subset.csv) -> raw clinical data of the patient subset
-  - [train_data_resamples.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/train_data_resamples.csv) -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
-  - [test_data_resamples.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/test_data_resamples.csv) -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
+  - [train_data_resamples_reordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/train_data_resamples_reordered.csv) -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
+  - [test_data_resamples_reordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/test_data_resamples_reordered.csv) -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
 ---
