@@ -37,9 +37,9 @@ In this project, we address the challenging problem of early detection and accur
   - [12_3D_CNN_With_DenseNet](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/12_3D_CNN_With_DenseNet.ipynb) -> 3D CNN DenseNet architecture for nrrd file classification - change directory to switch between CT and Fused CT/PET images
   - [13_Transfer_Learning_ResNet_Fused](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/13_Transfer_Learning_ResNet_Fused.ipynb) -> ResNet model for image classification on Fused images
   - [14_Transfer_Learning_ResNet_CT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/14_Transfer_Learning_ResNet_CT.ipynb) -> ResNet model for image classification on CT images
-  - 15 VGG16
-  - 16 Inception
-  - 17 Xception
+  - [15_Transfer_Learning_VGG16](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/15_Transfer_Learning_VGG16.ipynb) -> VGG16 model for image classification on CT images and Fused images
+  - [16_Transfer_Learning_Inception](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/16_Transfer_Learning_Inception.ipynb) -> Inception model for image classification on CT images and Fused images
+  - [17_Transfer_learning_Xception](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/17_Transfer_learning_Xception.ipynb) -> Xception model for image classification on CT images and Fused images
   - [18_Multimodal_MedCLIP_CT](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/18_Multimodal_MedCLIP_CT.ipynb) -> Multi-modal MedClip based model for classification based on CT images, clinical data and genomics data
   - [19_Multimodal_MedCLIP_CT_PET](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/19_Multimodal_MedCLIP_CT_PET.ipynb) -> Multi-modal MedClip based model for classification based on CT images, PET images, clinical data and genomics data
   - [20_Multimodal_MedCLIP_Fused](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/20_Multimodal_MedCLIP_Fused.ipynb) -> Multi-modal MedClip based model for classification based on Fused CT/PET images, clinical data and genomics data
@@ -58,4 +58,6 @@ In this project, we address the challenging problem of early detection and accur
   - [clinical_subset.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/clinical_subset.csv) -> raw clinical data of the patient subset
   - [train_data_resamples_ordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/train_data_resamples_ordered.csv) -> pre-processed and cleaned clinicla and genetic features for training after SMOTE class balancing and feature selection
   - [test_data_resamples_ordered.csv](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/Data/test_data_resamples_ordered.csv) -> pre-processed and cleaned clinicla and genetic features for testing after SMOTE class balancing and feature selection
+
+  **Some data files are too big to upload completley, processed images can be found at:
 ---
