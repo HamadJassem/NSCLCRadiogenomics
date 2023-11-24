@@ -20,9 +20,22 @@ In this project, we address the challenging problem of early detection and accur
 </p>
 
 ---
+### Setting up a development environment
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/HamadJassem/NSCLCRadiogenomics/
+   cd NSCLC
+2. **Install Requirments**
+   ```python
+   pip install -r requirements.txt
+
+
+---
 ### Directory Guide:
 - #### src Notebooks
-  - [00_Downloading_Data_From_TCIA](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/00_Downloading_Data_From_TCIA.ipynb) -> used to get the dataset (CT, PET) from the cancer imaging archive
+  - [00_Downloading_Data_From_TCIA](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/00_Downloading_Data_From_TCIA.ipynb) -> used to get the dataset (CT, PET) from the cancer imaging archive. Files can be obtained from [Link](https://drive.google.com/drive/folders/1AijJOVC5Mj14_BNi26rN_HLp1D9mxWkI?usp=sharing)
   - [01_Deep_CNN_Autoencoder_Denoising_Image](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/01_Deep_CNN_%20Autoencoder_Denoising_Image.ipynb) -> Deep CNN autoencoder model to denoise and pre-process the PET scans
   - [02_CT_Lung_Mask_Prosessing](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/02_CT_Lung_Mask_Prosessing.ipynb) -> CT scans pre-processing and filtering
   - [03_Transfer_Learning - Fusion](https://github.com/HamadJassem/NSCLCRadiogenomics/blob/main/src%20notebooks/03_Transfer_Learning%20-%20Fusion.ipynb) -> VGG19 Fusion model to fuse the CT and PET image slices
