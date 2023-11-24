@@ -30,7 +30,8 @@ In this project, we address the challenging problem of early detection and accur
 2. **Install Requirments**
    ```python
    pip install -r requirements.txt
-
+3. Download data files from [Link](https://drive.google.com/drive/folders/1AijJOVC5Mj14_BNi26rN_HLp1D9mxWkI?usp=sharing)
+4. Run notebooks in order sequence specified
 
 ---
 ### Directory Guide:
